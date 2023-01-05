@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img {
+    width: 100px;
+    margin: 10px 0px 0px 0px;
+}
+button {
+    background-color: orange;
+    padding: 3px 10px;
+    box-shadow: 3px 2px 0px 0px;
+    margin-left: 30px;
+}
+button:active{
+    transform: scale(0.98);
+}
+#topbar {
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 50%;
+    left: 25%;
+    padding: 10px 10px;
+}
+.yourself {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    border: solid;
+    justify-content: space-between;
+    align-items: center;
+    height: 240px;
+    width: 150px;
+    left: 25%;
+    top: 113px;
+    padding: 10px;
+}
+#col-2 > h1{
+    padding: 0px 50px;
+}
+#col-2{
+    position: relative;
+    left: 50%;
+    top: -200px;
+}
+.people {
+    position: relative;
+    border: solid;
+    padding: 10px;
+    width: 290px;
+    margin: 10px 0px;
+}
+.likes {
+    position: relative;
+    display: flex;
+    top: -25px;
+    left: 190px;
+}
+.likes > p {
+    margin-left: -30px;
+}
